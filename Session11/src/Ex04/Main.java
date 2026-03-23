@@ -30,7 +30,7 @@ public class Main {
             conn = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/HospitalDB",
                     "root",
-                    "your_password"
+                    "123456$"
             );
 
             stmt = conn.createStatement();

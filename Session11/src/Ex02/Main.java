@@ -15,7 +15,7 @@ public class Main {
             conn = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/your_database",
                     "root",
-                    "your_password"
+                    "123456$"
             );
 
             stmt = conn.createStatement();
